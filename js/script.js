@@ -28,8 +28,16 @@ var clock = $('.clock').FlipClock(diff, {
                 elem.style.width = width + '%';
                 percent.innerHTML = width +'% done with Iron Yard';
             }
-        }
+        };
 
+      var secondsElapsedNow = document.getElementById("secondsElapsedNow")
+      secondsElapsedNow.innerHTML = "test";
+      var secondsElaspedCount = Math.floor(timeElapsed);
+      var id = setInterval(changeElapsed, 1000);
+      function changeElapsed(){
+        secondsElapsedNow.innerHTML = secondsElaspedCount;
+        secondsElaspedCount++;
+      }
 
 
 
