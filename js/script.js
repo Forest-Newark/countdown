@@ -30,8 +30,9 @@ var clock = $('.clock').FlipClock(diff, {
             }
         };
 
-      var secondsElapsedNow = document.getElementById("secondsElapsedNow")
-      secondsElapsedNow.innerHTML = "test";
+      var secondsElapsedNow = document.getElementById("secondsElapsedNow");
+      var secondsTotal = document.getElementById("totalSeconds");
+      secondsTotal.innerHTML = totaltime;
       var secondsElaspedCount = Math.floor(timeElapsed);
       var id = setInterval(changeElapsed, 1000);
       function changeElapsed(){
