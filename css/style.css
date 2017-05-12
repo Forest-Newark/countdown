@@ -1,4 +1,18 @@
+<<<<<<< HEAD
 header {
+=======
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+}
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+
+section {
+>>>>>>> 46b8095385ca8fdcd90dfb8a3dd70e074f049e44
   height: 100vh;
   background: url("../images/sad.jpg");
   background-position: center;
