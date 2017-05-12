@@ -1,0 +1,6 @@
+section {
+  height: 100vh;
+  background: url("../images/sad.jpg");
+  background-position: center;
+  object-fit: cover;
+}
