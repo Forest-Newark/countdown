@@ -10,13 +10,6 @@ var clock = $('.clock').FlipClock(diff, {
 		countdown: true
 	});
 
-
-
-
-
-
-
-
         var elem = document.getElementById("myBar");
         var percent = document.getElementById("percentage")
         var tiyStartDate = new Date(2017,1,27);
